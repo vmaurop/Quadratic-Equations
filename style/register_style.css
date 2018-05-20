@@ -1,0 +1,52 @@
+body{	
+	font-family:calibri;
+	background-color:#d8dcd6;
+	margin : auto;
+}
+
+.error-message {
+	margin: auto;
+	padding: 10px;	
+	width:495px;
+	background: #fff1f2; /*χρώμα όλο*/
+	border: #ffd5da 1px solid; /*χρώμα πλαισίου*/
+	color: #d6001c;  /*χρώμα γραμμάτων*/
+	border-radius: 4px;	 /* καμπύλη πλαισιου*/
+	text-align: center;
+}
+.success-message {	
+	margin: auto;
+	padding: 10px;	
+	width:495px;
+	background: #cae0c4;
+	border: #c3d0b5 1px solid;
+	color: #027506;
+	border-radius: 4px;	
+	text-align: center;
+}
+.demo-table {
+	border-radius:10px;  /*καμπύλη στις γωνίες*/
+	background: #FEFFED;	/*κίτρινο χρώμα*/
+	border-spacing: initial;	
+	word-break: break-word;
+	table-layout: auto;
+	line-height: 1.8em;
+	color: #333;  /*μαύρο χρώμα γραμ/ρας*/
+	border:4px solid #ccc;  /*γκρί χρώμα πλαισίου*/
+	padding: 20px 40px;
+}
+.demo-table td {
+	padding: 15px;
+}
+.demoInputBox {
+	padding: 10px 30px;
+	border: #a9a9a9 1px solid;
+	border-radius: 4px;
+}
+.btnRegister {
+	padding: 10px 30px;
+	background-color: #0042ff; /*μπλε χρώμα*/
+	border: 0;
+	color: #FFF;	/*άσπρο χρωμα γραμμάτων*/
+	border-radius: 14px;
+}
